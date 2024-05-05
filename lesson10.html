@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lesson 9 - Reciprocal Pronouns </title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<style>
+body{ background: linear-gradient(45deg, white, #D1E4C4, white); height: 200vh; }
+.buttons{
+  background-color:#D1E4C4;
+  color: black; 
+  box-shadow:5px 0px 7px black;
+  border-radius:10px;
+  cursor: pointer;
+  margin-right:5px;
+  font-size:30px;
+  transition: background-color 1s;
+  transition: color 1s;
+  width:250px;
+  height: 80px;  
+  border-width: 2px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  
+}
+.buttons:hover{
+background-color:#F1F7ED;
+color:black;
+box-shadow: 5px 0px 7px black;
+}
+.buttons:active{
+opacity: 0.7;
+}
+
+.buttons1{
+  background-color:#D1E4C4;
+  color: black; 
+  box-shadow:5px 0px 7px black;
+  border-radius:10px;
+  cursor: pointer;
+  margin-right:5px;
+  font-size:23px;
+  transition: background-color 1s;
+  transition: color 1s;
+  width:175px;
+  height: 80px;  
+  border-width: 2px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  
+}
+.buttons1:hover{
+background-color:#F1F7ED;
+color:black;
+box-shadow: 5px 0px 7px black;
+}
+.buttons1:active{
+opacity: 0.7;
+}
+.tooltips{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:70px;
+ font-weight:bold;
+ cursor:pointer;
+ 
+}
+.tooltips .tooltipstext{
+ visibility:hidden;
+ position:absolute;
+ z-index:1;
+ left:100px;
+ width:1100px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:40px;
+ font-weight:normal;
+ padding: 5px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ text-align: left;
+ 
+}
+.tooltips:hover .tooltipstext{  visibility: visible;}
+
+
+.dropdown{ display: flex;}
+ .dropdown button{
+  background-color: #D1E4C4; color: black; padding: 10px 30px;
+  border:none; cursor:pointer; box-shadow: 5px 5px 7px black;
+  transition:0.05s; border-radius:4px;
+ }
+
+ .dropdown a{
+  display: flex; text-decoration: none; text-align: center; padding: 10px 23px; margin-top:10px; background-color: #D1E4C4;
+  color:black; box-shadow: 5px 5px 7px black; border-radius:4px; margin-left:5px;
+ }
+
+ .dropdown .content{
+   position: absolute; min-width:100px;
+  display:none;
+ }
+
+ .dropdown:hover .content{ 
+  display:flex;
+ }
+ .dropdown:hover button{
+  background-color: #F1F7ED; color:black;
+ }
+ .dropdown a:hover{
+  background-color: #F1F7ED; color:black;
+ }
+
+.d{ font-size: 30px;}
+.d1 { font-size: 40px; cursor:pointer;}
+
+.div1 {  display: grid; grid-template-columns: 1fr 1fr; }
+.div2 {display: grid; grid-template-columns: 900px; justify-content: center;}
+.div4  {font-size: 30px;}
+.div3 {display: grid; grid-template-columns: 1fr 1fr 1fr; text-align: left;}
+.div5 {display: grid; grid-template-columns: 900px; justify-content: center; }
+.div6 {display: grid; grid-template-columns: 1fr 1fr;}
+.div7 {text-align: center; font-size: 40px;}
+.div8 {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+.img {width:300px; height: 270px;}
+.img2 {width:300px; height: 270px; }
+
+@media screen and (max-width: 1000px){
+.d{ font-size: 25px;}
+.d1 {font-size: 30px;}
+
+.div1 {display: grid; grid-template-columns: 1fr;}
+.div2 {display: grid; grid-template-columns: 1fr;}
+.div4  {font-size: 25px;}
+.div3 {display: grid; grid-template-columns: 1fr;}
+.div5 {display: grid; grid-template-columns: 1fr;}
+.div6 {display: grid; grid-template-columns: 1fr;}
+.div7 {text-align: center; font-size: 30px;}
+.div8 {display: grid; grid-template-columns: 1fr ;}
+.wrapper { overflow-x: hidden; width: 100%; background: linear-gradient(45deg, white, #D1E4C4, white);}
+
+.img{width:150px; height: 135px;}
+.img2 {width:150px; height: 135px; }
+
+
+.tooltips{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:50px;
+ font-weight:bold;
+ cursor:pointer;
+ 
+}
+.tooltips .tooltipstext{
+ visibility:hidden;
+ position:absolute;
+ z-index:1;
+ left:100px;
+ width:1100px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:40px;
+ font-weight:normal;
+ padding: 5px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ 
+}
+.tooltips:hover .tooltipstext{  visibility: hidden;}
+
+.buttons{
+  background-color:#D1E4C4;
+  color: black; 
+  box-shadow:5px 0px 7px black;
+  border-radius:10px;
+  cursor: pointer;
+  margin-right:5px;
+  font-size:30px;
+  transition: background-color 1s;
+  transition: color 1s;
+  width:250px;
+  height: 80px;  
+  border-width: 2px;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  
+}
+.buttons:hover{
+background-color:#F1F7ED;
+color:black;
+box-shadow: 5px 0px 7px black;
+}
+.buttons:active{
+opacity: 0.7;
+}
+
+}
+}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+
+<h1 class="tooltips"> Reciprocal pronouns</h1>
+
+<p class="div4" style="text-align: center; ">
+We use the reciprocal pronouns <b>each other</b> and <b>one another</b> when two or more people do the same thing.
+</p>
+
+<div class="div1" style="">
+
+<div style="box-shadow: 1px 0 1px grey; text-align: center; padding:20px;">
+
+<button onmousedown="sound1.play()" class="buttons"> each other </button>
+
+<p class="div4" style="text-align: left; ">
+&bull; Peter and Mary helped each other<br>
+&#10162; Peter helped Mary and Mary helped Peter.
+
+</div>
+
+<div style="box-shadow: 1px 0 1px grey; text-align: center; padding:20px;">
+
+<button onmousedown="sound2.play()" class="buttons"> one another </button>
+<p class="div4" style="text-align: left; ">
+&bull; We sent one another cards.<br>
+&#10162; We sent them a card and they sent us a card.</p>
+
+</div>
+
+
+</div>
+
+
+<div class="div2" style=" ">
+
+<p style="text-align: center; font-size: 33px;"></p>
+
+
+<p class="div4" style="text-align: left;  background-color:#F1F7ED; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey;">
+We also use the possessive forms each other<b>'s</b> and one another<b>'s</b>:<br><br>
+
+&bull; They helped to look after each other<b>'s</b> children.<br>
+&bull; The group of students often stayed in one another<b>'s</b> houses.<br><br>
+
+Note that we do <b>not</b> use reciprocal pronouns as the subject of a clause.
+
+</p>
+
+<p class="div4" style="text-align: left;  background-color:#D1E4C4; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey;"> 
+Reciprocal pronouns and plural reflexive pronouns <br>
+<b>ourselves &bull; yourselves &bull; themselves</b> have different meanings:<br><br>
+
+
+&bull; John and Fred talk to <b>each other</b> regularly.<br>
+&#10162; John talks to Fred and Fred talks to John.<br><br>
+
+&bull; John and Fred regularly talk to <b>themselves</b>.<br>
+&#10162; John talks to himself and Fred talks to himself.
+</p>
+
+
+
+</div>
+
+<script>
+
+  var sound1 = new Audio();
+  sound1.src = "eachother.mp3";
+
+  var sound2 = new Audio();
+  sound2.src = "oneanother.mp3";
+
+  var sound3 = new Audio();
+  sound3.src = "that.mp3";
+
+  var sound4 = new Audio();
+  sound4.src = "whose.mp3";
+
+  var sound5 = new Audio();
+  sound5.src = "itself.mp3";
+
+  var sound6 = new Audio();
+  sound6.src = "ourselves.mp3";
+
+  var sound7 = new Audio();
+  sound7.src = "yourselves.mp3";
+
+  var sound8 = new Audio();
+  sound8.src = "themselves.mp3";
+
+  var sound9 = new Audio();
+  sound9.src = "anything.mp3";
+
+  var sound10 = new Audio();
+  sound10.src = "everything.mp3";
+
+  var sound11 = new Audio();
+  sound11.src = "something.mp3";
+
+  var sound12 = new Audio();
+  sound12.src = ".mp3";
+
+ 
+  var sound13 = new Audio();
+  sound13.src = "itself.mp3";
+
+  
+
+
+</script>
+</body>
+</html>
